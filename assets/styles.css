@@ -48,7 +48,7 @@ header a:hover {
 }
 
 .hero-div {
-    background-image: url(./assets/bg.png);
+    background-image: url(./bg.png);
     font-size: 50px;
     display: flex;
     height: 200px;
