@@ -3,6 +3,20 @@
     --textcolor: rgb(15, 124, 214);
 }
 
+main{
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap: flex;
+    flex-direction: row;
+}
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap: flex;
+    flex-direction: row;
+}
 
 body{
     background-color: rgb(255, 255, 255);
@@ -284,4 +298,33 @@ h2.section-title {
         font-weight: normal;
     }
 
+    .header2{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    .header3{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+  }
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 400px) {
+    .header2{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 400px;
+    }
+    
+    .hero{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 400px;
+    }
   }
